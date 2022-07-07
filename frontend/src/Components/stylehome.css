@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Qahiri&display=swap");
+body {
+  background-image: url("https://thumbs.dreamstime.com/b/helping-poor-to-enjoy-eating-delicious-food-helping-poor-to-enjoy-eating-delicious-food-139434992.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.parallex {
+  margin-top: 50px;
+  width: 1300px;
+  background-image: url("https://images.pexels.com/photos/45842/clasped-hands-comfort-hands-people-45842.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  min-height: 500px;
+  margin-left: 30px;
+  height: 800px;
+  /* opacity: 0.5; */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 300px;
+  text-align: center; */
+}
+.parallex :hover {
+  opacity: 0.7;
+}
+.parallex img {
+  margin-left: 20px;
+  margin-top: 20px;
+  opacity: 0.9;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
+}
+.parallex img :hover {
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+}
+.parallex p {
+  font-size: 300px;
+  margin-left: 400px;
+  font-family: "Qahiri", sans-serif;
+  color: white;
+  text-shadow: 0 0 10px yellow;
+}
+.parallex p p {
+  color: yellow;
+  font-size: 80px;
+  font-style: cursive;
+  margin-left: 100px;
+  margin-top: -50px;
+}
+
+.Head > h1 {
+  padding-top: 80px;
+  padding-right: 450px;
+  font-size: 72px;
+  font-family: "Festive", cursive;
+  color: white;
+}
+
+.Wish > h1 {
+  float: left;
+  margin-top: -900px;
+  color: blue;
+  text-shadow: 0 0 10px yellow;
+  font-family: "Satisfy", cursive;
+  padding-left: 40px;
+}
+
+.Wish > h1 > span {
+  font-family: "Satisfy", cursive;
+}
+.info {
+  border: 2px solid red;
+  margin-top: 200px;
+  width: 1000px;
+}
